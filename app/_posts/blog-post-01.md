@@ -20,13 +20,13 @@ tags:
     "meta",
   ]
 excerpt: "Click the image or title to see all the supported markdown features."
-coverImage: "/posts/blog-post-01/cover.jpg"
+coverImage: "posts/blog-post-01/cover.jpg"
 date: "2026-01-01T00:00:00.322Z"
 author:
   name: John Doe
   picture: "authors/eric-wang.png"
 ogImage:
-  url: "/posts/blog-post-01/cover.jpg"
+  url: "posts/blog-post-01/cover.jpg"
 ---
 # Headings
 # H1
