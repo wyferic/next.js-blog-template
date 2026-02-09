@@ -45,7 +45,7 @@ normal text
 
 ---
 ## Images
-!["Sample image"](/posts/blog-post-01/cover.jpg "Sample image")
+!["Sample image"](posts/blog-post-01/cover.jpg "Sample image")
 Photo by John Doe  
 _Image caption: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua._
 
