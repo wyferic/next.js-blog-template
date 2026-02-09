@@ -1,0 +1,72 @@
+@reference "tailwindcss";
+
+.markdown {
+  @apply text-lg leading-relaxed px-12 sm:px-12;
+}
+
+.markdown p,
+.markdown blockquote {
+  @apply my-6;
+}
+
+/* headers */
+.markdown h1 {
+  @apply text-4xl my-4 leading-snug;
+}
+
+.markdown h2 {
+  @apply text-3xl my-4 leading-snug;
+}
+
+.markdown h3 {
+  @apply text-2xl my-4 leading-snug;
+} 
+
+/* blockquotes */
+.markdown blockquote {
+  @apply border-l-4 pl-4 italic text-slate-500 my-4;
+}
+
+/* images */
+.markdown img {
+  @apply block mx-auto rounded-xl max-w-full;
+}
+
+/* emphasis text */
+.markdown em {
+  @apply text-slate-500;
+}
+
+/* lists */
+.markdown ul {
+  @apply list-disc list-outside pl-6 my-4;
+}
+
+.markdown ol {
+  @apply list-decimal list-outside pl-6 my-4;
+}
+
+.markdown li {
+  @apply my-1;
+}
+
+/* tables */
+/* im not touching this one with a 10 foot pole */
+
+/* links */
+.markdown a {
+  @apply text-blue-500 hover:underline transition-colors duration-200;
+}
+
+.markdown a:visited {
+  @apply text-purple-500 hover:underline;
+}
+
+/* code */
+.markdown pre {
+  @apply my-6 overflow-x-auto rounded-xl bg-slate-900 p-4 text-sm;
+}
+
+.markdown pre code {
+  @apply block bg-transparent p-0 text-white;
+}

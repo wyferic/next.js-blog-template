@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --font-sans: var(--font-atkinson);
+}
+
+body {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  overflow-x: hidden;
+  /* @apply text-black dark:text-white transition-colors duration-200; */
+}
+
+section {
+    display: block;
+    padding: 12px;
+    margin: 48px auto;
+    z-index: 1;
+}
+
+code {
+  font-family: "Atkinson Hyperlegible Mono", sans-serif;
+}
+
+Image {
+    @apply rounded-3xl
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 0;
+  }
+  100% {
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
+  }
+}
