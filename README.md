@@ -1,3 +1,3 @@
-This is my personal website
+https://wyferic.github.io/next.js-blog-template
 
-wyferic.github.io
+This is a blog template.
